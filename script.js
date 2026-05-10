@@ -321,6 +321,136 @@ const portfolioData = [
     },
     link: "#",
   },
+  {
+    id: 7,
+    title: "The Psychology Hub",
+    category: "content",
+    image: "https://placehold.co/600x400/8b5cf6/ffffff?text=Psychology+Hub",
+    description:
+      "Content optimization and SEO strategy for psychology and mental health educational platform.",
+    stats: {
+      traffic: "165%",
+      keywords: "120+",
+    },
+    link: "psychology-hub.html",
+  },
+  {
+    id: 8,
+    title: "Atlanta Decking",
+    category: "local",
+    image: "https://placehold.co/600x400/f59e0b/ffffff?text=Atlanta+Decking",
+    description:
+      "Local SEO optimization for decking and outdoor construction services in Atlanta region.",
+    stats: {
+      rankings: "12+",
+      position: "#1",
+    },
+    link: "atlanta-decking.html",
+  },
+  {
+    id: 9,
+    title: "Instascents",
+    category: "technical",
+    image: "https://placehold.co/600x400/ec4899/ffffff?text=Instascents",
+    description:
+      "E-commerce site technical SEO and performance optimization for fragrance products.",
+    stats: {
+      traffic: "142%",
+      conversions: "178%",
+    },
+    link: "instascents.html",
+  },
+  {
+    id: 10,
+    title: "Peak Refreshments",
+    category: "content",
+    image: "https://placehold.co/600x400/06b6d4/ffffff?text=Peak+Refreshments",
+    description:
+      "Content strategy and on-page optimization for beverage and refreshment products.",
+    stats: {
+      traffic: "195%",
+      engagement: "156%",
+    },
+    link: "peak-refreshments.html",
+  },
+  {
+    id: 11,
+    title: "Sparx Med",
+    category: "technical",
+    image: "https://placehold.co/600x400/14b8a6/ffffff?text=Sparx+Med",
+    description:
+      "Medical and healthcare website technical SEO with structured data implementation.",
+    stats: {
+      traffic: "128%",
+      indexing: "100%",
+    },
+    link: "sparx-med.html",
+  },
+  {
+    id: 12,
+    title: "Dancing Dragons",
+    category: "content",
+    image: "https://placehold.co/600x400/f97316/ffffff?text=Dancing+Dragons",
+    description:
+      "Content and keyword optimization for entertainment and cultural services.",
+    stats: {
+      traffic: "189%",
+      keywords: "95+",
+    },
+    link: "dancing-dragons.html",
+  },
+  {
+    id: 13,
+    title: "ThrivePop",
+    category: "content",
+    image: "https://placehold.co/600x400/84cc16/ffffff?text=ThrivePop",
+    description:
+      "SEO content strategy and blog optimization for growth and productivity platform.",
+    stats: {
+      traffic: "212%",
+      articles: "85+",
+    },
+    link: "thrivepop.html",
+  },
+  {
+    id: 14,
+    title: "Smith Green Law",
+    category: "local",
+    image: "https://placehold.co/600x400/3b82f6/ffffff?text=Smith+Green+Law",
+    description:
+      "Local SEO for legal services with Google Business Profile optimization and local citations.",
+    stats: {
+      rankings: "18+",
+      citations: "50+",
+    },
+    link: "smith-green-law.html",
+  },
+  {
+    id: 15,
+    title: "The Quran Path",
+    category: "content",
+    image: "https://placehold.co/600x400/6366f1/ffffff?text=Quran+Path",
+    description:
+      "Educational content optimization and SEO strategy for Islamic learning platform.",
+    stats: {
+      traffic: "173%",
+      pages: "200+",
+    },
+    link: "quran-path.html",
+  },
+  {
+    id: 16,
+    title: "24 Hour Flood Pros",
+    category: "local",
+    image: "https://placehold.co/600x400/ef4444/ffffff?text=24hr+Flood+Pros",
+    description:
+      "Emergency services local SEO optimization for immediate service visibility and lead generation.",
+    stats: {
+      calls: "89+",
+      leads: "156%",
+    },
+    link: "flood-pros.html",
+  },
 ];
 
 // Function to render portfolio items
