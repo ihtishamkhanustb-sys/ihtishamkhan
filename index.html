@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,10 +12,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Header/Navigation Section Start -->
@@ -54,135 +53,97 @@
     <!-- Header/Navigation Section End -->
 
     <!-- Hero Section Start -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>Boost Your Visibility with Expert <span>SEO Strategies</span></h1>
-        <p>
-          I help businesses increase organic traffic, improve search rankings,
-          and drive conversions through data-driven SEO techniques.
-        </p>
-        <div class="hero-buttons">
-          <a href="#portfolio" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+    <section id="home" class="hero modern-hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">Expert SEO Specialist</div>
+          <h1>Dominate Search Rankings & Drive <span>Real Growth</span></h1>
+          <p>
+            I help modern businesses scale their organic traffic, improve search visibility,
+            and drive high-converting leads through data-driven SEO techniques.
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">View Portfolio <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
+            <a href="#contact" class="btn btn-secondary">Get Free Audit</a>
+          </div>
+          <div class="hero-social-proof">
+            <div class="proof-avatars">
+               <img src="https://placehold.co/40x40/2C3E66/ffffff?text=1" alt="client">
+               <img src="https://placehold.co/40x40/8CA88C/ffffff?text=2" alt="client">
+               <img src="https://placehold.co/40x40/F2A07E/ffffff?text=3" alt="client">
+            </div>
+            <span>Trusted by 50+ growing companies</span>
+          </div>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="profile.jpg" alt="SEO Specialist" />
+        <div class="hero-image-wrapper">
+          <div class="hero-image-arched">
+            <img src="profile.jpg" alt="Ihtisham Khan - SEO Specialist" />
+          </div>
+          <div class="hero-floating-card">
+            <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+            <div class="card-text">
+              <h4>180%</h4>
+              <p>Avg. Traffic Increase</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
-    <section id="about" class="about">
+    <section id="about" class="about modern-about">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-intro">
-            <h3>Professional SEO Specialist with 2+ Years Experience</h3>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="bento-grid">
+          <!-- Main Bio -->
+          <div class="bento-item main-bio">
+            <h3>Turning Search Visibility into Revenue</h3>
             <p>
-              I am a SEO Specialist with 2 years of hands on practical
-              experience with WordPress expertise. As an experienced SEO
-              specialist with a strong focus on WordPress, I specialize in
-              optimizing websites to improve their rankings on search engines
-              and drive organic traffic.
+              I am a dedicated SEO Specialist with a strong focus on WordPress and technical optimization. With over 2 years of hands-on experience, I don't just chase rankings—I build sustainable organic growth engines for my clients.
             </p>
-            <a href="#" class="btn btn-primary"
-              >Download Resume <i class="fas fa-download"></i
-            ></a>
-
-            <div class="stats">
-              <div class="stat-item">
-                <div class="stat-number">50+</div>
-                <div class="stat-label">Projects Completed</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">100%</div>
-                <div class="stat-label">Client Satisfaction</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">2+</div>
-                <div class="stat-label">Years Experience</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">15+</div>
-                <div class="stat-label">Happy Clients</div>
-              </div>
-            </div>
+            <p>
+              My approach combines technical audits, semantic content strategies, and high-authority link building to ensure your brand stands out in competitive markets.
+            </p>
+            <a href="#" class="btn btn-primary">Download Resume <i class="fas fa-download"></i></a>
           </div>
 
-          <div class="about-details">
-            <div class="skills">
-              <div class="skill">
-                <div class="skill-header">
-                  <h4>Technical SEO</h4>
-                  <span class="skill-percentage">95%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress technical" data-width="95%"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <div class="skill-header">
-                  <h4>Keyword Research</h4>
-                  <span class="skill-percentage">90%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress keyword" data-width="90%"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <div class="skill-header">
-                  <h4>Content Strategy</h4>
-                  <span class="skill-percentage">85%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress content" data-width="85%"></div>
-                </div>
-              </div>
-              <div class="skill">
-                <div class="skill-header">
-                  <h4>Analytics & Reporting</h4>
-                  <span class="skill-percentage">88%</span>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress analytics" data-width="88%"></div>
-                </div>
-              </div>
-            </div>
+          <!-- Stats Bento -->
+          <div class="bento-item stats-bento">
+             <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Projects</div>
+             </div>
+             <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Satisfaction</div>
+             </div>
+             <div class="stat-item">
+                <div class="stat-number">2+</div>
+                <div class="stat-label">Years Exp.</div>
+             </div>
+             <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Clients</div>
+             </div>
+          </div>
 
-            <div class="expertise-cards">
-              <div class="expertise-card">
-                <h4><i class="fas fa-search"></i> On-Page SEO</h4>
-                <p>
-                  Conducting thorough keyword research, optimizing content, meta
-                  tags, headers, and internal linking to enhance website
-                  visibility.
-                </p>
-              </div>
-              <div class="expertise-card">
-                <h4><i class="fas fa-globe"></i> Off-Page SEO</h4>
-                <p>
-                  Building high-quality backlinks, managing online reputation,
-                  and leveraging outreach strategies to enhance domain
-                  authority.
-                </p>
-              </div>
-              <div class="expertise-card">
-                <h4><i class="fas fa-cogs"></i> Technical SEO</h4>
-                <p>
-                  Conducting technical audits, improving site speed, ensuring
-                  mobile-friendliness, fixing crawl issues, and implementing
-                  structured data.
-                </p>
-              </div>
-              <div class="expertise-card">
-                <h4><i class="fab fa-wordpress"></i> WordPress SEO</h4>
-                <p>
-                  Specialized optimization techniques for WordPress websites,
-                  including plugin configuration and theme optimization.
-                </p>
-              </div>
-            </div>
+          <!-- Expertise Bento Cards -->
+          <div class="bento-item expertise-bento">
+             <h4><i class="fas fa-cogs"></i> Technical SEO</h4>
+             <p>Comprehensive audits, speed optimization, and crawlability fixes.</p>
+          </div>
+          <div class="bento-item expertise-bento">
+             <h4><i class="fas fa-pen-nib"></i> Content Strategy</h4>
+             <p>Semantic keyword research and search intent optimization.</p>
+          </div>
+          <div class="bento-item expertise-bento">
+             <h4><i class="fab fa-wordpress"></i> WordPress SEO</h4>
+             <p>Specialized optimization for WP sites, plugins, and themes.</p>
+          </div>
+          <div class="bento-item expertise-bento">
+             <h4><i class="fas fa-link"></i> Link Building</h4>
+             <p>High-quality ethical outreach and digital PR campaigns.</p>
           </div>
         </div>
       </div>
@@ -193,21 +154,19 @@
     <section id="services" class="services">
       <div class="container">
         <h2 class="section-title">My Services</h2>
-        <div class="services-grid">
+        <div class="services-grid modern-services-grid">
           <div class="service-card">
             <div class="service-icon">
               <i class="fas fa-search"></i>
             </div>
             <h3>Technical SEO</h3>
             <p>
-              Comprehensive website audits, site structure optimization, speed
-              improvements, and fixing technical issues that impact rankings.
+              Comprehensive website audits, structure optimization, and speed improvements.
             </p>
-            <ul class="service-features">
-              <li>Website Technical Audit</li>
-              <li>Site Speed Optimization</li>
-              <li>Indexation Issues Fixing</li>
-            </ul>
+            <div class="service-tags">
+              <span>Audits</span>
+              <span>Speed Optimization</span>
+            </div>
           </div>
 
           <div class="service-card">
@@ -216,30 +175,26 @@
             </div>
             <h3>Keyword Research</h3>
             <p>
-              In-depth keyword analysis to identify high-value opportunities
-              that drive targeted traffic and conversions.
+              In-depth semantic analysis to capture high-intent organic traffic.
             </p>
-            <ul class="service-features">
-              <li>Competitor Keyword Analysis</li>
-              <li>Long-Tail Keyword Research</li>
-              <li>Search Intent Optimization</li>
-            </ul>
+            <div class="service-tags">
+              <span>Competitor Analysis</span>
+              <span>Search Intent</span>
+            </div>
           </div>
 
           <div class="service-card">
             <div class="service-icon">
               <i class="fas fa-pencil-alt"></i>
             </div>
-            <h3>Content Optimization</h3>
+            <h3>Content Strategy</h3>
             <p>
-              Strategic content planning and optimization to improve relevance,
-              engagement, and search visibility.
+              Data-driven content planning to maximize engagement and relevance.
             </p>
-            <ul class="service-features">
-              <li>Content Gap Analysis</li>
-              <li>SEO Content Strategy</li>
-              <li>On-Page Optimization</li>
-            </ul>
+            <div class="service-tags">
+              <span>Gap Analysis</span>
+              <span>On-Page SEO</span>
+            </div>
           </div>
 
           <div class="service-card">
@@ -248,53 +203,15 @@
             </div>
             <h3>SEO Analytics</h3>
             <p>
-              Detailed performance tracking, custom reporting, and data-driven
-              insights to measure and improve ROI.
+              Custom reporting and tracking to measure and optimize true ROI.
             </p>
-            <ul class="service-features">
-              <li>Performance Dashboard</li>
-              <li>Custom SEO Reporting</li>
-              <li>Conversion Rate Optimization</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-share-alt"></i>
+            <div class="service-tags">
+              <span>Dashboards</span>
+              <span>Conversion Tracking</span>
             </div>
-            <h3>Link Building</h3>
-            <p>
-              Ethical outreach strategies to acquire high-quality backlinks that
-              improve domain authority and rankings.
-            </p>
-            <ul class="service-features">
-              <li>Guest Post Outreach</li>
-              <li>Broken Link Building</li>
-              <li>Digital PR Campaigns</li>
-            </ul>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon">
-              <i class="fas fa-mobile-alt"></i>
-            </div>
-            <h3>Local SEO</h3>
-            <p>
-              Optimization for local search results, Google My Business
-              management, and local citation building.
-            </p>
-            <ul class="service-features">
-              <li>Google Business Profile Optimization</li>
-              <li>Local Citation Building</li>
-              <li>Localized Content Strategy</li>
-            </ul>
           </div>
         </div>
       </div>
-
-      <!-- Decorative elements -->
-      <div class="floating-element"></div>
-      <div class="floating-element"></div>
     </section>
     <!-- Services Section End -->
 
@@ -320,246 +237,126 @@
     <!-- Portfolio Section End -->
 
     <!-- Testimonials Section Start -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials modern-testimonials">
       <div class="container">
-        <h2 class="section-title">Client Testimonials</h2>
-        <div class="testimonials-container">
-          <div class="testimonials-slider">
-            <div class="testimonial active">
-              <div class="testimonial-content">
-                <p>
-                  John completely transformed our online presence. His technical
-                  SEO expertise helped us fix critical issues we didn't even
-                  know we had. Our organic traffic has increased by 180% in just
-                  6 months!
-                </p>
-              </div>
-              <div class="testimonial-author">
-                <img
-                  src="https://placehold.co/100x100/4f46e5/ffffff?text=SJ"
-                  alt="Sarah Johnson"
-                />
-                <div class="author-info">
-                  <h4>Sarah Johnson</h4>
-                  <p>Marketing Director, TechSolutions Inc.</p>
-                </div>
-              </div>
-              <div class="testimonial-stats">
-                <div class="stat">
-                  <span class="stat-value">180%</span>
-                  <span class="stat-label">Traffic Increase</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">6</span>
-                  <span class="stat-label">Months</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">95%</span>
-                  <span class="stat-label">Satisfaction</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="testimonial">
-              <div class="testimonial-content">
-                <p>
-                  Working with John has been a game-changer for our business.
-                  His content strategy and keyword research helped us rank for
-                  highly competitive terms we never thought possible.
-                </p>
-              </div>
-              <div class="testimonial-author">
-                <img
-                  src="https://placehold.co/100x100/10b981/ffffff?text=MC"
-                  alt="Michael Chen"
-                />
-                <div class="author-info">
-                  <h4>Michael Chen</h4>
-                  <p>CEO, GrowthDigital Agency</p>
-                </div>
-              </div>
-              <div class="testimonial-stats">
-                <div class="stat">
-                  <span class="stat-value">#1</span>
-                  <span class="stat-label">Rankings</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">140%</span>
-                  <span class="stat-label">ROI Increase</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">100%</span>
-                  <span class="stat-label">Satisfaction</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="testimonial">
-              <div class="testimonial-content">
-                <p>
-                  John's local SEO expertise helped our brick-and-mortar
-                  business dominate our local market. We're now the top result
-                  for all our key services in our area, leading to a 300%
-                  increase in leads.
-                </p>
-              </div>
-              <div class="testimonial-author">
-                <img
-                  src="https://placehold.co/100x100/f43f5e/ffffff?text=ER"
-                  alt="Emily Rodriguez"
-                />
-                <div class="author-info">
-                  <h4>Emily Rodriguez</h4>
-                  <p>Owner, CityHome Services</p>
-                </div>
-              </div>
-              <div class="testimonial-stats">
-                <div class="stat">
-                  <span class="stat-value">300%</span>
-                  <span class="stat-label">Lead Increase</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">15+</span>
-                  <span class="stat-label">Top Rankings</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-value">98%</span>
-                  <span class="stat-label">Satisfaction</span>
-                </div>
+        <h2 class="section-title">Client Success Stories</h2>
+        <div class="featured-testimonial">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p>
+              John completely transformed our online presence. His technical
+              SEO expertise helped us fix critical issues we didn't even
+              know we had. Our organic traffic has increased by 180% in just
+              6 months!
+            </p>
+            <div class="testimonial-author">
+              <img src="https://placehold.co/100x100/2C3E66/ffffff?text=SJ" alt="Sarah Johnson" />
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>Marketing Director, TechSolutions Inc.</p>
               </div>
             </div>
           </div>
-
-          <div class="testimonial-controls">
-            <div class="testimonial-dots">
-              <span class="dot active" data-slide="0"></span>
-              <span class="dot" data-slide="1"></span>
-              <span class="dot" data-slide="2"></span>
+          <div class="testimonial-stats">
+            <div class="stat">
+              <span class="stat-value">180%</span>
+              <span class="stat-label">Traffic Increase</span>
             </div>
-            <div class="testimonial-arrows">
-              <div class="arrow prev">
-                <i class="fas fa-chevron-left"></i>
-              </div>
-              <div class="arrow next">
-                <i class="fas fa-chevron-right"></i>
-              </div>
+            <div class="stat">
+              <span class="stat-value">95%</span>
+              <span class="stat-label">Satisfaction</span>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Decorative elements -->
-      <div class="floating-testimonial">
-        <i class="fas fa-quote-left"></i>
-      </div>
-      <div class="floating-testimonial">
-        <i class="fas fa-star"></i>
+        
+        <div class="secondary-testimonials">
+          <div class="testimonial-card">
+             <p>"Working with him has been a game-changer. His content strategy helped us rank for highly competitive terms."</p>
+             <div class="author-info">
+                <h4>Michael Chen</h4>
+                <p>CEO, GrowthDigital Agency</p>
+             </div>
+          </div>
+          <div class="testimonial-card">
+             <p>"His local SEO expertise helped our brick-and-mortar business dominate. 300% increase in leads."</p>
+             <div class="author-info">
+                <h4>Emily Rodriguez</h4>
+                <p>Owner, CityHome Services</p>
+             </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Testimonials Section End -->
 
     <!-- Contact Section Start -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact modern-contact">
       <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <div class="contact-content">
+        <div class="contact-split">
           <div class="contact-info">
-            <h3>Let's Discuss Your Project</h3>
-            <p>
-              I'm currently available for freelance projects and consulting
-              work. Feel free to reach out and I'll respond as soon as possible.
+            <div class="contact-badge">Available for Work</div>
+            <h2 class="section-title text-left" style="text-align: left; margin-bottom: 2rem;">Let's Build Something Great</h2>
+            <p class="contact-desc">
+              Ready to scale your organic growth? Reach out for a free SEO audit and consultation.
             </p>
 
             <div class="contact-details">
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                 <div class="contact-text">
-                  <h4>Email</h4>
+                  <h4>Email Me</h4>
                   <p>ihtishamkhanustb@gmail.com</p>
                 </div>
               </div>
-
               <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-phone"></i>
-                </div>
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
                 <div class="contact-text">
-                  <h4>Phone</h4>
+                  <h4>Call Me</h4>
                   <p>+92 332 457 1616</p>
-                </div>
-              </div>
-
-              <div class="contact-item">
-                <div class="contact-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="contact-text">
-                  <h4>Location</h4>
-                  <p>Model Town, Lahore</p>
                 </div>
               </div>
             </div>
 
             <div class="social-links">
-              <a
-                href="https://www.linkedin.com/in/ihtisham-khan-1a5775321/"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-              <a
-                href="https://x.com/ihtisham9922?t=BwbRROLMsJEh1CNiFuI0Tg&s=09"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/ahtisham100?igsh=djg3YXpleThxa2th"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-instagram"></i
-              ></a>
+              <a href="https://www.linkedin.com/in/ihtisham-khan-1a5775321/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://x.com/ihtisham9922?t=BwbRROLMsJEh1CNiFuI0Tg&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/ahtisham100?igsh=djg3YXpleThxa2th" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
 
-          <div class="contact-form">
-            <form id="contactForm">
-              <div class="form-group">
-                <input type="text" id="name" placeholder=" " required />
-                <label for="name">Your Name</label>
-              </div>
-              <div class="form-group">
-                <input type="email" id="email" placeholder=" " required />
-                <label for="email">Your Email</label>
-              </div>
-              <div class="form-group">
-                <input type="text" id="subject" placeholder=" " required />
-                <label for="subject">Subject</label>
-              </div>
-              <div class="form-group">
-                <textarea id="message" placeholder=" " required></textarea>
-                <label for="message">Your Message</label>
-              </div>
-              <button type="submit" class="btn btn-primary">
-                Send Message <i class="fas fa-paper-plane"></i>
-              </button>
-              <div id="form-status" class="status-message"></div>
-            </form>
+          <div class="contact-form-wrapper">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="john@example.com" required />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" placeholder="Project Inquiry" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100" style="width: 100%;">
+                  Send Message <i class="fas fa-paper-plane" style="margin-left:8px;"></i>
+                </button>
+                <div id="form-status" class="status-message"></div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- Floating decorative elements -->
-      <div class="floating-contact">
-        <i class="fas fa-envelope"></i>
-      </div>
-      <div class="floating-contact">
-        <i class="fas fa-comment"></i>
-      </div>
     </section>
     <!-- Contact Section End -->
+
 
     <!-- Footer Section Start -->
     <footer class="footer">
